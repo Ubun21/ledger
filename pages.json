@@ -1,0 +1,43 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}, {
+            "path" : "pages/ledger/ledger",
+			"style": {
+				"navigationStyle": "custom"
+			}
+        }, {
+            "path" : "pages/chart/chart",
+			"style": {
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/editor/editor",
+            "style": {
+            	"navigationStyle": "custom"
+            }    
+        }
+    ],
+	"tabBar": {
+		"selectedColor": "#ffda47",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/tarbar/detail.png",
+	        "text": "明细"
+	    }, {
+	        "pagePath": "pages/ledger/ledger",
+	        "iconPath": "static/tarbar/ledger.png",
+	        "text": "记账"
+	    }, {
+	        "pagePath": "pages/chart/chart",
+	        "iconPath": "static/tarbar/chart.png",
+	        "text": "图表"
+	    }]
+	}
+}
+
